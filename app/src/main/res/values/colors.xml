@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#ff9d26</color>
+    <color name="colorYellow">#ff9d26</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="gray">#9e9e9e</color>
+    <color name="lightBlueFooter">#2799B8</color>
+    <color name="darkBlueFooter">#2799B8</color>
+    <color name="white">#FFF</color>
+    <color name="red">#e0503d</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="black">#000</color>
+    <color name="backgroundColor">#d5d5d5</color>
+    <color name="fontSetColor">#565656</color>
+    <color name="fontSetColorTxt">#5a5a5a</color>
+    <color name="selectFont">#00607a</color><!--#00678F-->
+    <color name="backgroundFont">#1e88a6</color>
+    <color name="selectBackground">#005e7a</color>
+    <color name="editTextLogin">#898888</color>
+    <color name="textLoginNew">#575656</color>
+    <color name="textLoginAccount">#00607a</color><!--#00678F-->
+    <color name="borderColor">#00607a</color><!--#00678F-->
+    <color name="headerTitleColor">#474747</color>
+    <color name="loginButtonClr">#f5f7f9</color>
+    <color name="headerContentColor">#455a64</color>
+    <color name="headerBordertColor">#dddfde</color>
+    <color name="moreTxtColor">#353535</color>
+    <color name="detailTxtBanner">#474747</color>
+    <color name="detailTxtContent">#666666</color>
+    <color name="referalSubmit">#f5f7f9</color>
+    <color name="referalColor">#ababab</color>
+    <color name="notifiTitBorderColor">#cdcdcd</color>
+    <color name="notifiTitFontColor">#00607a</color><!--#00678F-->
+    <color name="notifiDateFontColor">#00607a</color><!--#00678F-->
+    <color name="notifiTitFontColorClicked">#737373</color>
+    <color name="notifiDateFontColorClicked">#8e8d8d</color>
+    <color name="notifiMessageFontColor">#898989</color>
+    <color name="borderFontColor">#cdcdcd</color>
+    <color name="listitemBackgroundFontColor">#f5f7f7</color>
+    <color name="numberBackground">#f5f7f9</color>
+    <color name="lightgary">#D3D3D3</color>
+    <color name="alertBackgroundColorImage">#00607a</color><!--#00678F-->
+    <color name="alertBackgroundColorTxt">#ffffff</color>
+    <color name="alertTxtClr">#666666</color>
+    <color name="greencolor">#87a74f</color>
+    <color name="alertBackgroundColor">#f1f2f6</color>
+    <color name="alertFontColor">#818285</color>
+    <color name="alertBorderColor">#e7e8ec</color>
+
+    <color name="alertDimColor">#3e3e3e</color>
+
+
+    <color name="album_title">#4c4c4c</color>
+
+
+    <color name="lineDimColor">#fafafa</color>
+
+    <color name="lineBorderColor">#e3e3e3</color>
+    <color name="txtResourceColor">#5e5e5e</color>
+    <color name="txtBackgroundColor">#f7f7f7</color>
+    <color name="txtColor">#292929</color>
+    <color name="txtRightColor">#858585</color>
+    <color name="viewLineBorderColor">#d4d4d4</color>
+    <color name="txtCategoryResourceColor">#00607a</color><!--#00678F-->
+    <color name="txtCategoryResourceOrganization">#8f8f8f</color>
+    <color name="moreColor">#353535</color>
+    <color name="weblink">#00BFFF</color>
+    <color name="savecolor">#289bb8</color>
+    <color name="cancelcolor">#999999</color>
+    <color name="settingbackground">#f4f4f4</color>
+    <color name="linecolor">#DDDDDD</color>
+    <color name="toolbarline">#006986</color>
+    <color name="tabselected">#0083A7</color>
+
+    <color name="activefont">#00607B</color>
+    <color name="noactivefont">#7FB0BE</color>
+    <color name="linecolorcoach">#E9EEEF</color>
+    <color name="baccolorcoach">#F9F9F9</color>
+    <color name="textactivecoach">#141414</color>
+    <color name="textnotactivecoach">#393939</color>
+    <color name="fragmenttxt">#242424</color>
+
+    <color name="fontsett">#9b9b9b</color>
+    <color name="fontset">#343434</color>
+
+
+    <color name="colorSecondaryText">#888888</color>
+
+    <color name="tv_normal_color">#000000</color>
+    <color name="tv_color">#000000</color>
+    <color name="bg_et_color">#FFF6F6F6</color>
+
+    <!--Signin-->
+    <color name="btn_color">#000000</color>
+    <color name="btn_text_color">#FFFFFF</color>
+    <color name="chat_text">#9FA5B2</color>
+    <color name="offline">#D2D2D2</color>
+    <color name="edit_bg">#EDEDED</color>
+    <color name="textcolor">#585858</color>
+    <color name="hintcolor">#b1b1b1</color>
+
+    <color name="darkblue">#00aef0 </color>
+
+    <color name="darkblack">#414042 </color>
+    <color name="cancel_ride_color">#B0B0B0</color>
+
+
+
+    <!--Service List-->
+    <color name="text_bg_trans_color">#aa2c323e</color>
+    <color name="dustYellow">#ffd700</color>
+
+    <!--Spot Dialog Dot Color-->
+    <color name="spots_dialog_color">@color/tv_color</color>
+
+    <!--Navigation Header-->
+
+    <color name="nav_header">#f6f6f6</color>
+
+    <!--SignIn-->
+
+    <color name="user_name">#B0B0B0</color>
+</resources>

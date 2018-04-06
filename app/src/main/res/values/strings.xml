@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">plunge</string>
+
+
+    <!--Register Screen-->
+    <string name="register">Register</string>
+
+
+    <!--Login Screen-->
+    <string name="email">Email</string>
+    <string name="passowrd">Password</string>
+    <string name="forgetpas">Forgotten Passowrd</string>
+    <string name="login">login</string>
+    <string name="newkab">New to KAB?</string>
+    <string name="signup">Signup</string>
+
+    <!--MapActivity-->
+    <string name="ride">Book a Ride</string>
+    <string name="scheduletrips">Scheduled Trips</string>
+    <string name="completedtrips">Completed Trips</string>
+    <string name="account">My Account</string>
+    <string name="cards">Cards</string>
+    <string name="help">Help</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="lbl_close">Close</string>
+    <string name="lbl_open">Open</string>
+    <string name="google_map_api" translatable="false">AIzaSyA6e191dVE0EMKbLdwdZ5ONqAh4q2sPn4c</string>
+    <string name="something_went_wrong">Something went Wrong</string>
+</resources>

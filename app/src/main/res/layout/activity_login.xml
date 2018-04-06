@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@+id/client_id_input_layout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:id="@+id/knowledge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Knowledge from a to b"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+
+        android:layout_marginTop="@dimen/_15sdp"
+        app:layout_constraintTop_toBottomOf="@+id/image_view"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="132dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/client_id_input_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_55sdp"
+
+        android:layout_marginRight="@dimen/_55sdp"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:background="@drawable/edit_text_rounded_corner_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="@dimen/_7sdp"
+        android:hint="UserName"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintTop_toBottomOf="@+id/knowledge"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <EditText
+        android:layout_marginTop="@dimen/_5sdp"
+
+        android:hint="@string/passowrd"
+        android:id="@+id/authenticate"
+        android:layout_width="0dp"
+        android:textSize="@dimen/_12sdp"
+        android:inputType="textPassword"
+        android:padding="@dimen/_7sdp"
+
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/edit_text_rounded_corner_bg"
+        app:layout_constraintLeft_toLeftOf="@+id/client_id_input_layout"
+        app:layout_constraintRight_toRightOf="@+id/client_id_input_layout"
+        app:layout_constraintTop_toBottomOf="@+id/client_id_input_layout" />
+
+    <Button
+
+        android:id="@+id/login"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/authenticate"
+        app:layout_constraintRight_toRightOf="@+id/authenticate"
+        android:layout_marginTop="@dimen/_15sdp"
+
+        android:text="@string/login"
+        android:textSize="@dimen/_13sdp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/authenticate" />
+
+    <TextView
+
+        android:id="@+id/forgot"
+        android:layout_width="0dp"
+        android:text="@string/forgetpas"
+
+        android:fontFamily="@font/avenir_roman"
+        android:textAlignment="center"
+        android:textColor="@color/colorYellow"
+        app:layout_constraintLeft_toLeftOf="@+id/login"
+        app:layout_constraintRight_toRightOf="@+id/login"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_13sdp"
+
+        app:layout_constraintTop_toBottomOf="@+id/login" />
+
+
+</android.support.constraint.ConstraintLayout>
